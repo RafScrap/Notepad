@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kurenkov</string>
+    <string-array name="ids">
+        <item>lvNotes</item>
+        <item>комедия</item>
+        <item>приключения</item>
+        <item>мелодрама</item>
+    </string-array>
+</resources>
