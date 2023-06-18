@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kurenkov</string>
+    <string name="noteTitle">Введите заголовок</string>
+    <string name="noteСontent">Введите текст</string>
+    <string name="btnSaveNote">Сохранить</string>
+    <string name="btnSave">Сохранить</string>
+    <string name="btnCancel">Отменить</string>
+    <string name="btnDelete">Удалить</string>
+    <string name="btnAdd">Добавить</string>
+</resources>

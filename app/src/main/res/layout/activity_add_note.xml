@@ -11,8 +11,9 @@
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:ems="10"
+            android:hint="@string/noteTitle"
             android:inputType="text"
-            android:text="titleAdd"
+            app:layout_constraintBottom_toTopOf="@+id/edAddNoteRecord"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -23,8 +24,8 @@
             android:layout_height="0dp"
             android:ems="10"
             android:gravity="top"
+            android:hint="@string/noteСontent"
             android:inputType="text|textMultiLine"
-            android:text="contentAdd"
             app:layout_constraintBottom_toTopOf="@+id/tvAddNoteData"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -35,11 +36,11 @@
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_marginBottom="64dp"
-            android:text="11-06-2023"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edAddNoteRecord" />
 
         <Button
             android:id="@+id/btnSaveNote"
@@ -48,7 +49,7 @@
             android:layout_marginStart="64dp"
             android:layout_marginBottom="10dp"
             android:onClick="onClickSaveNote"
-            android:text="Save Note"
+            android:text="@string/btnSaveNote"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -59,7 +60,7 @@
             android:layout_marginEnd="64dp"
             android:layout_marginBottom="10dp"
             android:onClick="onClickCancel"
-            android:text="Cancel"
+            android:text="@string/btnCancel"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 

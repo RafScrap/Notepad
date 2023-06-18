@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">Kurenkov</string>
-    <string-array name="ids">
-        <item>lvNotes</item>
-        <item>комедия</item>
-        <item>приключения</item>
-        <item>мелодрама</item>
-    </string-array>
+    <string name="app_name" translatable="false">Kurenkov</string>
+    <string name="noteTitle">Write a title</string>
+    <string name="noteСontent">Write a content</string>
+    <string name="btnSaveNote">Save Note</string>
+    <string name="btnSave">Save</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnAdd">Add</string>
 </resources>
